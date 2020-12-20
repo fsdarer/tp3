@@ -353,5 +353,5 @@ app.put("/libro/:id", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Servidor escuchando en el puerto 3001" + port);
+  console.log("Servidor escuchando en el puerto 3001", port);
 });
